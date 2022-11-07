@@ -1,0 +1,12 @@
+package Pract_18_1;
+
+public class Exception1 {
+    public void exceptionDemo() {
+       try {
+           System.out.println(2/0);
+       } catch (ArithmeticException e)
+       {
+           System.out.println("\nException: Попытка деления на 0");
+       }
+    }
+}
